@@ -15,10 +15,10 @@ class BankBranch
     {
         //    - Inside the constructor, check if the `bankBranchInstance` variable is null (indicating no instance exists).
         if(bankBranchInstance)
-            //    - If `bankBranchInstance` is null, create a new instance with the provided `branchInfo` and assign it to `bankBranchInstance`.
-            return bankBranchInstance;
-        
         //    - Return the `bankBranchInstance` whether it's newly created or existing.
+        return bankBranchInstance;
+        
+        //    - If `bankBranchInstance` is null, create a new instance with the provided `branchInfo` and assign it to `bankBranchInstance`.
         this.branchInfo = branchInfo;
         bankBranchInstance = this;
     }
