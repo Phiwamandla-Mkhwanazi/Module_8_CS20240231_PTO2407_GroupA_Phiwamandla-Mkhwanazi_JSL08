@@ -28,8 +28,15 @@ class BankBranch
 
 // 5. In the usage section:
 //    - Create instances of the `BankBranch` class, such as `branchA` and `branchB`, with different branch information.
+const branchA = new BankBranch({ info: 'CodeSpace Cat'});
+const branchB = new BankBranch({ info: 'CodeSpace Dog'});
+
 //    - Use the `getBranchInfo` method to retrieve branch information from the instances.
+console.log(branchA.getBranchInfo());
+console.log(branchB.getBranchInfo()); 
+
 //    - Verify that `branchA` and `branchB` are both referring to the same instance by comparing them using `===`.
+console.log(branchA === branchB); // Output: true
 
 // This pseudo-code provides a step-by-step explanation of how to implement the Singleton Pattern for managing a single instance of the `BankBranch` class throughout the application, ensuring that multiple instances refer to the same object.
 
