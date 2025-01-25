@@ -1,8 +1,8 @@
 // This one will be a little tricky. So check out this overview first: https://www.youtube.com/watch?v=sJ-c3BA-Ypo
 'use strict';
  
-import BankBranch from "./bankBranch.js";
-/*
+//import BankBranch from "./bankBranch.js";
+
 // 1. Create a variable to store the singleton instance of the bank branch. "bankBranchInstance"
 globalThis.bankBranchInstance = null;
 // 2. Define a class called `BankBranch` for managing branch information.
@@ -28,8 +28,6 @@ class BankBranch
         return this.branchInfo; // Return the branch details
     }
 }
-*/
-
 
 // 5. In the usage section:
 //    - Create instances of the `BankBranch` class, such as `branchA` and `branchB`, with different branch information.
