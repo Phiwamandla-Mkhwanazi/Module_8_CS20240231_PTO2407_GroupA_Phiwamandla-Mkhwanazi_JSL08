@@ -5,7 +5,7 @@
 */
 
 // 1. Create a variable to store the singleton instance of the bank branch. "bankBranchInstance"
-let bankBranchInstance = null;
+globalThis.bankBranchInstance = null;
 // 2. Define a class called `BankBranch` for managing branch information.
 class BankBranch
 {
